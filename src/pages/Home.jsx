@@ -1,6 +1,7 @@
 import { Alert, Box, CircularProgress, Grid, Container } from '@mui/material';
 import React, { useEffect, useState } from 'react';
 import MediaCard from '../compunents/Card';
+import Carousel from '../compunents/Carousel';
 
 const Home = () => {
   const [products, setProducts] = useState([]);
@@ -24,6 +25,8 @@ const Home = () => {
   }, []);
 
   return (
+<>
+    <Carousel/>
     <div>
       {error && (
         <div className="text-center">
@@ -61,6 +64,7 @@ const Home = () => {
         </Grid>
       </Container>
     </div>
+</>
   );
 };
 
