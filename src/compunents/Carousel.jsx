@@ -3,9 +3,9 @@ import { Box, IconButton } from "@mui/material";
 import { KeyboardArrowLeft, KeyboardArrowRight } from "@mui/icons-material";
 
 const images = [
-  "https://i.pinimg.com/1200x/99/36/dd/9936dd23129a84ab38877f1c306ae01d.jpg", 
-  "https://i.pinimg.com/1200x/0c/48/f9/0c48f9da97ec133a2f7facb393b60bd8.jpg", 
-  "https://i.pinimg.com/1200x/0b/eb/ae/0bebae6fadf2193021de86ab23fd64e2.jpg", 
+  "https://images6.alphacoders.com/632/632663.jpg", 
+  "https://img.freepik.com/free-photo/high-angle-controllers-headphones_23-2149829136.jpg?semt=ais_hybrid&w=740&q=80", 
+  "https://www.asus.com/media/Odin/Websites/global/Series/9.png", 
 ];
 
 const Carousel = () => {
